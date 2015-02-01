@@ -1,0 +1,14 @@
+node_modules
+dist
+.tmp
+.sass-cache
+bower_components
+.bowerrc
+.travis.yml
+.editorconfig
+.gitattributes
+app/.buildignore
+test
+app/views/uibase.html
+app/styles/BSstyle/*
+app/img/IMG*
