@@ -3,9 +3,8 @@
 // ==========================================================================
 
 // Font Stacks
-
-$font-url--google        : 'http://fonts.googleapis.com/css?family=Lato:100,300,400,700,900';
-$font-family--primary    : 'Lato', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+$font-url--google        : 'http://fonts.googleapis.com/css?family=Open+Sans:300,400,600,700,800';
+$font-family--primary    : 'Khula', 'Helvetica Neue', Helvetica, Arial, sans-serif;
 $font-family--secondary  : 'Helvetica Neue', Helvetica, Arial, sans-serif;
 
 // Font Weights
@@ -97,10 +96,17 @@ $ui-colors: (
 	info    : $lime
 );
 
+// Link Colors
+$normal :  $emerald;
+$hover : $rose-l;
+$active : $rose;
+$visited : $rose;
+$focus : $rose;
+
 // Text
 
-$base__font-size : 16px;
-$base__line      : 24px;
+$base-font-size : 16px;
+$base-line-height     : 24px;
 $letter-space    : 1px;
 
 // Border radius

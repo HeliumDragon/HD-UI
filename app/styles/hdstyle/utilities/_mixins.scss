@@ -43,8 +43,8 @@
 @mixin ui-colors($map, $p-el:null) {
 	@each $theme, $color in $map {
   	@include m($theme) {
-      background-color: $color;
-
+      //background-color: $color;
+			@include background-image(linear-gradient(tint($color,25%), $color, tint($color,18%)));
       // If an $p-el value is passed, generate pseudo-element bg colors. Used on progbars.
       @if $p-el {
         &:after {
