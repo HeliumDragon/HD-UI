@@ -2,8 +2,17 @@ $icon-font-path: "../bower_components/bootstrap-sass-official/assets/fonts/boots
 @import "compass";
 @import "hdstyle/_ui.scss";
 
-// Descriptive Base Colors
+// Social Icon sprites
+$icons-layout: smart;
+@import "icons/*.png";
+@include all-icons-sprites;
 
+.social a {
+  display: block;
+  width: em(64px);
+  height: em(64px);
+  @include hide-text;
+}
 
 @each $name, $color in $color-grid {
   .#{$name}-bg {
