@@ -17,21 +17,54 @@ $font-weight--bold       : 700;
 $font-weight--ultra-bold : 900;
 
 // Descriptive Base Colors
-
 $white : #fff;
 $black : #0b0b0b;
 $grey  : #797e83;
 
+// HDUI Colors
+$dark:#2E303B;
+$dark-l:#423F45;
+$cream:#E8D4CC;
+$silver:#E8D8D1;
+$rose:#C12841;
+$rose-l:#D94D97;
+$rose-pink:#CD5F7D;
+$caramel:#CE9365;
+$caramel-l:#CC9875;
+$lime:#D4D88D;
+$lime-l:#D4D9BB;
 $fountain-blue  : #52bab3;
-$emerald        : #5ece7f;
-$sunglo         : rgba(254, 52, 68, 0.94);
+$emerald        : #45C75E;
 $coral          : #ff784f;
-$purple-majesty : #9279c3;
+$purple : #9279c3;
 $scooter        : #39add1;
+
+// color-grid
+$color-grid:(
+	black : #0b0b0b,
+	grey  : #797e83,
+	fountain-blue  : #52bab3,
+	emerald        : #45C75E,
+	coral          : #ff784f,
+	purple : #9279c3,
+	scooter        : #39add1,
+	dark: #2E303B,
+	dark-l: #423F45,
+	cream: #E8D4CC,
+	silver: #E8D8D1,
+	rose: #C12841,
+	rose-l: #D94D97,
+	rose-pink: #CD5F7D,
+	caramel: #CE9365,
+	caramel-l: #CC9875,
+	lime: #D4D88D,
+	lime-l: #D4D9BB
+);
+
 
 // Color Usage
 
-$color-primary   : $fountain-blue;
+$color-primary   : $rose-pink;
 $color-secondary : $scooter;
 $color-accent    : $emerald;
 $color-shadow    : rgba($black, .2);
@@ -57,11 +90,11 @@ $color-palettes: (
 // UI Colors
 
 $ui-colors: (
-	default : $fountain-blue,
+	default : $rose-pink,
 	success : $emerald,
-	error   : $sunglo,
-	warning : $coral,
-	info    : $purple-majesty
+	error   : $rose,
+	warning : $caramel,
+	info    : $lime
 );
 
 // Text
