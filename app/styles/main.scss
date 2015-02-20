@@ -9,9 +9,14 @@ $icons-layout: smart;
 
 .social a {
   display: block;
-  width: em(64px);
-  height: em(64px);
+  width: em(32px);
+  height: em(32px);
   @include hide-text;
+}
+
+.social li {
+  display: inline-block;
+  margin:0 5px;
 }
 
 @each $name, $color in $color-grid {
